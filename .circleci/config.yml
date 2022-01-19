@@ -24,5 +24,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello:
-          context: ikopico
+      - say-hello
