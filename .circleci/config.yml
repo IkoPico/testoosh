@@ -13,7 +13,7 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-            "echo $TEST"
+            echo "$TEST"
             if [ -z "$TEST" ]; then
               echo "TEST NOT FOUND"
               exit 1
